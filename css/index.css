@@ -1,0 +1,289 @@
+/* BANNER */
+
+.banner {
+  width: 100vw;
+  padding: 70px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.banner > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* title */
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.title > h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.title > span {
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+}
+
+/* PROMOTION */
+
+.promotion {
+  width: 100vw;
+  padding: 70px 0;
+}
+
+.promotion > article {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.promotionContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.promotionBox {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.promotionBox > figure {
+  /* position: relative; */
+}
+
+/* .promotionBox_blur {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    180deg,
+    white 0%,
+    white 59px,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  opacity: 0;
+}
+
+.promotionBox:hover > .promotionBox_blur {
+  opacity: 1;
+} */
+
+.ing {
+  position: absolute;
+  background-color: #023586;
+  color: white;
+  padding: 5px 10px;
+}
+
+.promotionBox > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.promotionBox > strong {
+  font-size: 18px;
+}
+
+.promotionBox > span {
+  font-size: 12px;
+  color: #888888;
+}
+
+/* products */
+
+.products {
+  width: 100vw;
+  padding: 70px 0;
+}
+
+.products > article {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 0px;
+}
+
+.productsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.productsBox > h3 {
+  font-size: 14px;
+  color: #111111;
+}
+
+.productsBox > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* PB STORY */
+.pbstory {
+  width: 100vw;
+  padding: 70px 0;
+}
+
+.pbstory > article {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.pbstoryContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 30px;
+}
+
+.pbstoryContainer > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pbstoryBox {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 35px;
+  gap: 15px;
+}
+
+.pbstoryBox > h3 {
+  font-size: 14px;
+  color: #023586;
+}
+
+.pbstoryBox > strong {
+  font-size: 24px;
+  color: #111111;
+  line-height: 1.4;
+}
+
+.pbstoryBox > p {
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 1.4;
+}
+
+.pbstoryBox > span {
+  font-size: 10px;
+  color: #111111;
+}
+
+/* PB INSTA */
+
+.pbinsta {
+  width: 100vw;
+  padding: 70px 0;
+}
+
+.pbinsta > article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pbinsta > article > h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111111;
+  margin-bottom: 15px;
+}
+.pbinsta > article > span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111111;
+}
+
+.pbinstBox {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  padding: 20px;
+}
+
+.pbinstBox > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pbinsta > article > button {
+  background-color: #023586;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: 1px solid #023586;
+}
+
+/* Botton Banner */
+.bottombanner {
+  width: 100vw;
+  padding: 70px 0;
+}
+
+.bottombanner > article {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.bottombannerBox {
+  padding: 0px 20px;
+  border-right: 1px solid black;
+  position: relative;
+}
+
+.bottombannerBox > div {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+
+.bottombannerBox > h3 {
+  font-size: 14px;
+  color: #1e73be;
+  margin-bottom: 15px;
+}
+
+.bottombannerBox > p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #515151;
+  line-height: 1.4;
+}

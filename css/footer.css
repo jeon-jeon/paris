@@ -1,0 +1,95 @@
+footer {
+  width: 100vw;
+  background-color: #454a56;
+}
+
+.widget > article {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 70px 0px;
+}
+
+.footInf {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 14px;
+}
+
+.footInf > strong {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footInf > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footInf > ul > li {
+  padding: 5px 0px;
+}
+
+.footerLogo > figure {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footerImg {
+  display: flex;
+}
+
+.footerImg > figure {
+  width: 50px;
+  margin-right: 10px;
+}
+.footerImg > figure > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.img_size {
+  width: 15%;
+  object-fit: cover;
+}
+
+.copy > p {
+  font-size: 11px;
+  color: #999999;
+  padding: 5px 0px;
+  text-align: center;
+  border-top: 1px solid #999999;
+}
+
+.footmenuText {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+.font_color_red {
+  color: #ff2013;
+}
+
+.footmenuText > span {
+  padding: 0px 5px;
+}
+
+.border_right {
+  border-right: 1px solid white;
+}
+
+.border_both {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.icons > i {
+  font-size: 30px;
+  margin-right: 10px;
+}
